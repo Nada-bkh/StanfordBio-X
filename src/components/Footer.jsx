@@ -2,18 +2,18 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="bg-white border-t border-neutral-200 py-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-center space-x-8">
-          <a href="#" className="text-neutral-600 hover:text-stanford-red text-sm font-medium transition-colors">
-            Contact
-          </a>
-          <a href="#" className="text-neutral-600 hover:text-stanford-red text-sm font-medium transition-colors">
-            FAQ
-          </a>
+      <footer className="bg-white border-t-2 border-neutral-900 py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-start space-x-8">
+            <a href="#" className="text-neutral-800 hover:text-red-600 text-sm font-medium transition-colors">
+              FAQ
+            </a>
+            <a href="#" className="text-neutral-800 hover:text-red-600 text-sm font-medium transition-colors">
+              Contact us
+            </a>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
   )
 }
 
